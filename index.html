@@ -1,79 +1,163 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Saraniya's Portfolio</title>
-    <meta name="description" content="Professional portfolio of Saraniya, Software Quality Assurance Engineer">
-    <meta name="author" content="Saraniya">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-  </head>
-  
-  <body>
-    <header id="header">
-      <img src="logo.png" alt="Saraniya's Logo">
-      <h1>Saraniya's Portfolio</h1>
-      
-      <ul class="main-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>                   
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              Hello! This is Saraniya's Portfolio with Sample Projects! 
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              I am Saraniya, a Software Quality Assurance Engineer with a passion for ensuring software quality and user satisfaction. 
-              I have experience in manual and automated testing, and I am always eager to learn new technologies.
-            </p>
-          </div>
-          
-          <div id="projects" class="content-region hide">
-            <h2>Projects</h2>
-            <p>Here are some of my sample projects:</p>
-            <ul>
-              <li>
-                <a href="https://github.com/saraniya-automations/portfolioExample" target="_blank">Portfolio Example</a> - A simple portfolio website to showcase my skills and projects.
-              </li>
-            </ul>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              You can reach me at <a href="mailto:saraniya.sathisvari@gmail.com">saraniya.sathisvari@gmail.com</a>
-            </p>
-          </div>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Saraniya Sathisvari</h1>
+            <p>Quality Assurance Engineer | Automation Engineer | SDET | Software Analyst</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <!-- <li><a href="#cv">CV</a></li> -->
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#domains">Domains</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-    </div>
+    </header>
 
-    <footer>  
-      &copy; 2023 Saraniya's Portfolio. All rights reserved.
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <!-- <img src="your-photo.jpg" alt="Your Photo" class="profile-pic"> -->
+            <h2>About Me</h2>
+            <p>
+    Hello! I am <strong>Saraniya</strong>, currently pursuing a <strong>Master’s degree in Software Engineering</strong> at Yoobee Colleges, New Zealand.  
+    I am a <strong>Software Quality Assurance Engineer</strong> with <strong>8+ years of experience</strong>.  
+    I specialize in planning and implementing strategies for quality management and testing, and I am passionate about building <strong>industry-standard automation frameworks</strong> to help organizations overcome their testing challenges.
+</p>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+    <div class="container">
+        <h2>Portfolio</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="playwright.png" alt="Playwright Automation Sample Project">
+                <h3>Playwright Automation Sample Project</h3>
+                <p>Developed a scalable web automation framework using <strong>Playwright</strong> with <strong>TypeScript</strong>, integrated with <strong>CI/CD pipelines</strong> for continuous testing.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="card">
+                <img src="selenium.png" alt="Selenium UI Automation Sample Project">
+                <h3>Selenium UI Automation Sample Project</h3>
+                <p>Built a reusable <strong>Selenium WebDriver</strong>-based automation framework for end-to-end web application testing with <strong>Java</strong> and <strong>TestNG</strong>.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="card">
+                <img src="appium.png" alt="Appium Mobile Automation Project">
+                <h3>Appium Mobile Automation Project</h3>
+                <p>Created a cross-platform mobile testing framework using <strong>Appium</strong> for Android and iOS, enabling automated regression testing of mobile applications.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="card">
+                <img src="rest.png" alt="Rest Assured Project">
+                <h3>Rest Assured Sample Project</h3>
+                <p>Created a cross-platform mobile testing framework using <strong>Appium</strong> for Android and iOS, enabling automated regression testing of mobile applications.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="card">
+                <img src="xcui.jpeg" alt="XCUI Automation Project">
+                <h3>XCUI Automation Project</h3>
+                <p>Created a cross-platform mobile testing framework using <strong>Appium</strong> for Android and iOS, enabling automated regression testing of mobile applications.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- CV Section -->
+    <!-- <section id="cv" class="section">
+        <div class="container">
+            <h2>Curriculum Vitae</h2>
+            <p>You can download my CV using the link below:</p>
+            <a href="YourCV.pdf" class="btn" target="_blank">Download CV</a>
+        </div>
+    </section> -->
+
+    <!-- Certificates Section -->
+<section id="certificates" class="section">
+    <div class="container">
+        <h2>Certifications</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="istqb.png" alt="ISTQB Certification">
+                <h3>ISTQB Certified Tester</h3>
+                <p>Issued by ISTQB – Foundation Level Certification in Software Testing.</p>
+            </div>
+            <div class="card">
+                <img src="aws.png" alt="AWS Certification">
+                <h3>AWS Certified Cloud Practitioner</h3>
+                <p>Issued by Amazon Web Services – Fundamentals of Cloud Computing.</p>
+            </div>
+            <div class="card">
+                <img src="scrum.png" alt="Scrum Certification">
+                <h3>Certified ScrumMaster® (CSM)</h3>
+                <p>Issued by Scrum Alliance – Agile Project Management & Scrum Practices.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Domains Section -->
+<section id="domains" class="section">
+    <div class="container">
+        <h2>Domains I Have Worked In</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Banking & Finance</h3>
+                <p>Worked on applications related to core banking, payments, and financial services.</p>
+            </div>
+            <div class="card">
+                <h3>E-commerce</h3>
+                <p>Experience in testing high-traffic e-commerce platforms and order management systems.</p>
+            </div>
+            <div class="card">
+                <h3>Healthcare</h3>
+                <p>Involved in quality assurance for healthcare applications ensuring compliance & data integrity.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="social-icons">
+              <a href="mailto:saraniya.sathisvari@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/m-saraniya-2246877a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/saraniya-automations" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://medium.com/@saraauto" target="_blank"><i class="fab fa-medium"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Saraniya Sathisvari. All rights reserved.</p>
+            <p>Designed with ❤️ by Saraniya</p>
+        </div>
     </footer>
-    
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+</body>
 </html>
